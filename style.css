@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    text-align: center;
+    color:#000;
+   line-height:2.5rem ; 
+
+}
+
+h2{
+    text-align: center;
+}
+h5{
+    margin-top: 0;
+margin-bottom: .5rem;
+font-size: 2rem;
+font-weight: 500;
+line-height: 1.2;
+}
+.Heading h5{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+}
+.lead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+footer,p{
+    text-align: center;
+}
+
+
+
+
+/* *******************services CSS****************** */
+
+.card{
+
+    margin: 10px 0px 0px 5px;
+}
+.card-body{
+    text-align: center;
+}
