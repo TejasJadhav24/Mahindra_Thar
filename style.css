@@ -21,7 +21,7 @@ h5{
     margin-top: 0;
 margin-bottom: .5rem;
 font-size: 2rem;
-font-weight: 500;
+font-weight: bolder;
 line-height: 1.2;
 }
 .Heading h5{
@@ -31,9 +31,10 @@ line-height: 1.2;
 .lead{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    
     text-align: center;
 }
+
 footer,p{
     text-align: center;
 }
@@ -49,4 +50,16 @@ footer,p{
 }
 .card-body{
     text-align: center;
+}
+
+/* ****************************************media queries */
+@media (max-width:390px){
+    /* .carousel-inner .carousel-item h1{
+        visibility: collapse;
+        
+    } */
+    .invisi{
+        visibility: hidden;
+    }
+    
 }
